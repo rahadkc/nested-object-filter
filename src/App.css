@@ -1,0 +1,28 @@
+body{
+  background: #eee;
+}
+
+.sidebar{
+  background: #fff;
+}
+ol{
+  text-align: left;
+}
+
+ol >  li{
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sub{
+  padding-left: 20px;
+  background: #eee;
+}
+
+input{
+  height: 50px;
+  margin: 20px 0;
+  padding:10px;
+  width:50%;
+  position: relative;
+}
