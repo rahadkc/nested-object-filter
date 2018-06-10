@@ -5,7 +5,8 @@ body{
 .sidebar{
   background: #fff;
 }
-ol{
+ol, ul{
+  list-style: none;
   text-align: left;
 }
 
@@ -13,10 +14,11 @@ ol >  li{
   padding: 10px;
   cursor: pointer;
 }
-
-.sub{
-  padding-left: 20px;
-  background: #eee;
+li > ul, li > ol {
+  border-left: 1px solid #ddd;
+}
+.thumb{
+  width: 15px;
 }
 
 input{
